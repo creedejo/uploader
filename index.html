@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="assets/styles/styles.css" rel="stylesheet" />
+<title>File Uploader</title>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<h1>File Uploader</h1>
+		<p>Drag and drop a file into the box below to upload...</p>
+		<form id="file-form" method="post" enctype="multipart/form-data">
+			<div id="uploader" class="uploader">
+				<div class="status"></div>
+			</div>
+			<input class="file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+		</form>
+
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>

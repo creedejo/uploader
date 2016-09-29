@@ -1,0 +1,9 @@
+# Sublime project files
+*.sublime-project
+*.sublime-workspace
+
+#Node Modules
+node_modules
+
+#Uploaded Files
+uploads/*
